@@ -1,15 +1,35 @@
 {
+  "_from": "cordova-plugin-firebase@0.1.20",
+  "_id": "cordova-plugin-firebase@0.1.20",
+  "_inBundle": false,
+  "_integrity": "sha1-v3xZ2jej7NvIcmf9gGjEIcWWzkQ=",
+  "_location": "/cordova-plugin-firebase",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "cordova-plugin-firebase@0.1.20",
+    "name": "cordova-plugin-firebase",
+    "escapedName": "cordova-plugin-firebase",
+    "rawSpec": "0.1.20",
+    "saveSpec": null,
+    "fetchSpec": "0.1.20"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/cordova-plugin-firebase/-/cordova-plugin-firebase-0.1.20.tgz",
+  "_shasum": "bf7c59da37a3ecdbc87267fd8068c421c596ce44",
+  "_spec": "cordova-plugin-firebase@0.1.20",
+  "_where": "/Users/sebastianzankel/Downloads/helix-id-app/helix-id",
   "author": {
     "name": "Robert Arnesson"
   },
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/arnesson/cordova-plugin-firebase"
+  "bugs": {
+    "url": "https://github.com/arnesson/cordova-plugin-firebase/issues"
   },
-  "name": "cordova-plugin-firebase",
-  "version": "2.0.5",
-  "description": "Cordova plugin for Google Firebase",
+  "bundleDependencies": false,
   "cordova": {
     "id": "cordova-plugin-firebase",
     "platforms": [
@@ -18,6 +38,9 @@
       "browser"
     ]
   },
+  "deprecated": false,
+  "description": "Cordova plugin for Google Firebase",
+  "homepage": "https://github.com/arnesson/cordova-plugin-firebase#readme",
   "keywords": [
     "ecosystem:cordova",
     "cordova-android",
@@ -25,25 +48,13 @@
     "cordova-browser",
     "firebase",
     "push",
-    "notifications",
-    "phone auth"
+    "notifications"
   ],
-  "scripts": {
-    "version": "node ./bump-version.js && git add -A plugin.xml",
-    "postversion": "git push && git push --tags && npm publish --verbose",
-    "test": "npm run test:ios && npm run test:android && npm run test:browser",
-    "test:android": "npm run test:cordova@6.5.0:android@6.4.0 && npm run test:cordova@7.1.0:android@7.1.0 && npm run test:cordova@8.0.0:android@7.1.0",
-    "test:browser": "npm run test:cordova@6.5.0:browser@5.0.3 && npm run test:cordova@7.1.0:browser@5.0.3 && npm run test:cordova@8.0.0:browser@5.0.3",
-    "test:ios": "npm run test:cordova@6.5.0:ios@4.5.4 && npm run test:cordova@7.1.0:ios@4.5.4 && npm run test:cordova@8.0.0:ios@4.5.4",
-    "test:cordova@6.5.0:ios@4.5.4": "bash ./test/test-default.sh 6.5.0 ios 4.5.4",
-    "test:cordova@7.1.0:ios@4.5.4": "bash ./test/test-default.sh 7.1.0 ios 4.5.4",
-    "test:cordova@8.0.0:ios@4.5.4": "bash ./test/test-default.sh 8.0.0 ios 4.5.4",
-    "test:cordova@6.5.0:android@6.4.0": "bash ./test/test-default.sh 6.5.0 android 6.4.0 && bash ./test/test-with-3-plugins.sh 6.5.0 android 6.4.0 cordova-plugin-request-location-accuracy cordova-android-play-services-gradle-release cordova-android-firebase-gradle-release",
-    "test:cordova@7.1.0:android@7.1.0": "bash ./test/test-default.sh 7.1.0 android 7.1.0 && bash ./test/test-with-3-plugins.sh 7.1.0 android 7.1.0 cordova-plugin-request-location-accuracy cordova-android-play-services-gradle-release cordova-android-firebase-gradle-release",
-    "test:cordova@8.0.0:android@7.1.0": "bash ./test/test-default.sh 8.0.0 android 7.1.0 && bash ./test/test-with-3-plugins.sh 8.0.0 android 7.1.0 cordova-plugin-request-location-accuracy cordova-android-play-services-gradle-release cordova-android-firebase-gradle-release",
-    "test:cordova@6.5.0:browser@5.0.3": "bash ./test/test-default.sh 6.5.0 browser 5.0.3",
-    "test:cordova@7.1.0:browser@5.0.3": "bash ./test/test-default.sh 7.1.0 browser 5.0.3",
-    "test:cordova@8.0.0:browser@5.0.3": "bash ./test/test-default.sh 8.0.0 browser 5.0.3"
+  "license": "MIT",
+  "name": "cordova-plugin-firebase",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arnesson/cordova-plugin-firebase.git"
   },
-  "dependencies": {}
+  "version": "0.1.20"
 }
